@@ -1,0 +1,800 @@
+@font-face {
+  font-family: 'gobold';
+  src: url("../fonts/gobold/Gobold-Regular.otf");
+}
+
+/* Kamille's css */
+
+html {
+  background-color: black;
+}
+
+html, body {
+  width: 100%;
+  background-image: url(../images/background.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+/* http://alivecampus.com/wp-content/uploads/2014/08/980282_4959985009439_1917902207_o.jpg */
+
+
+h1 {
+    font-family: 'gobold';
+    text-align: center;
+}
+
+.wholeimg {
+  width: 100%;
+}
+
+#headerimg {
+  height: 80vh;
+  width: 100vw;
+  /* background-image: url(../images/camp_header.jpg); */
+  background-size: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.text {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.text2 {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.imgtext {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.halfimg {
+    width: 50%;
+    overflow: hidden;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.whiteline{
+  border-bottom: white 6px;
+  border-bottom-style: solid;
+  padding-bottom: 1.5rem;
+}
+
+.full {
+  width: 100%;
+}
+
+.fullrow {
+  width: 100%;
+  height: 18rem;
+  overflow: hidden;
+}
+
+
+.black {
+  background-color: black;
+  color: white;
+  height: 100%;
+}
+
+.grey {
+  background-color: #d3d3d3;
+  height: 100%;
+  color: black;
+}
+
+.white {
+  background-color: white;
+  height: 100%;
+  color: black;
+}
+
+.red {
+  background-color: rgba(204, 16, 27, 0.75);
+  color: white;
+}
+
+.login {
+  border: 10px white;
+  border-style: solid;
+  margin-top: 40px;
+  background-color: grey;
+}
+
+.lightgrey {
+  background-color: #f6f6f6;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+
+h3 {
+  margin-top: 0px;
+  margin-bottom: 1.5rem;
+  font-family: 'gobold';
+  font-size: 3rem;
+}
+
+h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  font-family: 'gobold';
+  font-size: 2rem;
+  border-left: 6px #cc101b;
+  border-left-style: solid;
+  padding-left: 0.75rem;
+}
+
+h5 {
+  font-family: 'gobold';
+  font-size: 1.7rem;
+  margin-bottom: 20px;
+}
+
+.click {
+  text-decoration: none;
+  color: black;
+}
+
+.click2 {
+  text-decoration: none;
+  color: white;;
+}
+
+.click:hover {
+  color: #cc101b;
+}
+
+.click2:hover {
+  color: #cc101b;
+}
+
+#footer {
+  background-color: black;
+  text-align: center;
+  bottom:0;
+  clear: left;
+}
+
+.socialmedia {
+  width: 2.9rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.socialmedia:hover {
+  cursor: pointer;
+  filter: brightness(0.80);
+}
+
+
+.redimg {
+  width: 32%;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  padding-top: 1.5%;
+}
+
+#redcont {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.fourthimg {
+  width: 24%;
+  padding: 0.5%;
+}
+
+.name {
+  font-size: 1.3rem;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.pos {
+  margin-top: 5px;
+}
+
+/* end Kamille */
+
+
+.member_image {
+  margin-top: 0px;
+  margin-left: 0px;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+/*Found css help for navbar at the following site: citehttps://codepen.io/kevinpowell/pen/GrLKNo*/
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 35px;
+  margin-right: 35px;
+  padding-top: 0px;
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #cc101b;
+}
+
+/* nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #cc101b;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+} */
+
+nav a:hover::before {
+  width: 100%;
+}
+
+nav {
+  margin-left: 11%;
+  margin-right: 11%;
+}
+
+/*Received aid for this code from here https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_grid_responsive*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.header {
+    text-align: center;
+    padding-top: 0px;
+}
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+
+.column2 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 4px;
+}
+
+.column2 img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column2 {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column2 {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 15px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+
+h2 {
+  color:#cc101b;
+}
+
+/* Contact Page styling  */
+.contact_logo {
+  width: 150px;
+  border-radius: 0%;
+  float: left;
+}
+
+#contact_page h2 {
+  color: black;
+  float: left;
+  margin-top: 61px;
+  margin-bottom: 61px;
+  margin-left: 61px;
+}
+
+#contact_page a {
+  text-decoration: none;
+}
+
+#contact_page section, #contact_page form {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contact_page section {
+  clear: left;
+}
+
+#contact_page input, #contact_page textarea, #contact_page button, #contact_page select {
+  width: 800px;
+  font-size: 20px;
+  height: 40px;
+  text-align: center;
+}
+
+#contact_page textarea {
+  height: 250px;
+  resize: none;
+}
+
+#contact_page button {
+  color: white;
+  border-radius: 10px;
+  float: none;
+  padding: 10px 15px;
+  background: #a3a3a3;
+  color: #FFF;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: solid 1px #636363;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+
+#contact_page button:hover {
+  background: #636363;
+  border: solid 1px #494949;
+  text-decoration: none;
+}
+
+
+#contact_page select {
+  background-color: white;
+}
+
+#contact_page .input_name {
+  /* width: 50%; */
+  display: inline-block;
+}
+
+#contact_page table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#contact_page th {
+  font-family: gobold;
+  color: white;
+  background-color: grey;
+  padding: 20px;
+  font-size: 20px;
+}
+
+#contact_page td form, #contact_page td button {
+  width: 40px;
+}
+
+#contact_page td {
+  padding: 20px;
+  font-size: 15px;
+  text-align: center;
+}
+
+#contact_page tr {
+  background-color: white;
+  color: black;
+}
+
+/* END Contact Page styling */
+
+/* Timeline styling */
+
+.timeline_list {
+  text-align: center;
+  list-style-type: none;
+}
+.timeline_item {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.submit_event {
+  background: #cccccc;
+  border-width: 1px;
+  border-color: #a6a6a6;
+  text-align: center;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.submit_event:hover {
+  background: #b3b3b3;
+}
+
+.year, .month {
+  width: 80px;
+  font-size: 15px;
+  padding: 5px;
+  margin: 0px 5px;
+  margin-bottom: 50px;
+}
+
+.title {
+  width: 500px;
+  font-size: 15px;
+  padding: 5px;
+  margin: 0px 5px;
+  margin-bottom: 50px;
+}
+
+.all_images {
+  margin: auto;
+  padding: 50px;
+}
+
+
+.gallery_image {
+  width: 50%;
+  padding: 10px;
+}
+
+.gallery_image:hover {
+  filter: brightness(0.70);
+}
+
+.search {
+  margin-top: 0px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+/*Used this site for select css: https://www.proy.info/style-select-dropdown-using-css/*/
+/* body select.select_box */
+body select {
+    display: block;
+    padding: 10px 70px 10px 13px !important;
+    max-width: 100%;
+    height: auto !important;
+    border: 1px solid #e3e3e3;
+    border-radius: 3px;
+    background: url("https://image.ibb.co/iMeAJv/selectbox_arrow.png") right center no-repeat;
+    background-color: #fff;
+    color: #444444;
+    font-size: 12px;
+    line-height: 16px !important;
+    appearance: none;
+    /* this is must */ -webkit-appearance: none;
+    -moz-appearance: none;
+}
+/* body select.select_box option */
+body select option {
+    padding: 0 4px;
+}
+/* for IE and Edge */
+select::-ms-expand {
+    display: none;
+}
+select:disabled::-ms-expand {
+    background: #f60;
+}
+
+/*Received aid for this css code from http://usabilitypost.com/2012/01/10/pressed-button-state-with-css3/*/
+.button-link {
+  margin-left: 30%;
+  float: none;
+  padding: 10px 15px;
+	background: #a3a3a3;
+	color: #FFF;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border: solid 1px #636363;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+  -webkit-transition-duration: 0.2s;
+	-moz-transition-duration: 0.2s;
+	transition-duration: 0.2s;
+}
+
+.insideb {
+  margin-left: 43%;
+}
+
+.button-link:hover, .button-link:focus {
+	background: #636363;
+	border: solid 1px #494949;
+	text-decoration: none;
+}
+
+.select_box {
+  float: left;
+}
+
+.select_and_button {
+  margin: 60px;
+}
+
+.form-style-1 {
+    border: 10px solid;
+    border-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+    padding: 20px 12px 10px 20px;
+    font: 13px sans-serif;
+    background-color: grey;
+}
+.form-style-1 li {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
+}
+.form-style-1 label{
+    margin:0 0 3px 0;
+    padding:0px;
+    display:block;
+    font-weight: bold;
+}
+.form-style-1 input[type=text],
+.form-style-1 input[type=date],
+.form-style-1 input[type=datetime],
+.form-style-1 input[type=number],
+.form-style-1 input[type=search],
+.form-style-1 input[type=time],
+.form-style-1 input[type=url],
+.form-style-1 input[type=email],
+textarea,
+/* select{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border:1px solid #BEBEBE;
+    padding: 7px;
+    margin:0px;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+} */
+
+
+.form-style-1 input[type=text]:focus,
+.form-style-1 input[type=date]:focus,
+.form-style-1 input[type=datetime]:focus,
+.form-style-1 input[type=number]:focus,
+.form-style-1 input[type=search]:focus,
+.form-style-1 input[type=time]:focus,
+.form-style-1 input[type=url]:focus,
+.form-style-1 input[type=email]:focus,
+.form-style-1 textarea:focus,
+.form-style-1 select:focus{
+    -moz-box-shadow: 0 0 8px #88D5E9;
+    -webkit-box-shadow: 0 0 8px #88D5E9;
+    box-shadow: 0 0 8px #88D5E9;
+    border: 1px solid #88D5E9;
+}
+.form-style-1 .field-divided{
+    width: 49%;
+}
+
+.form-style-1 .field-long{
+    width: 100%;
+}
+.form-style-1 .field-select{
+    width: 100%;
+}
+.form-style-1 .field-textarea{
+    height: 100px;
+}
+.form-style-1 input[type=submit], .form-style-1 input[type=button]{
+    background: #4B99AD;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+}
+.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
+    background: #4691A4;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+}
+.form-style-1 .required{
+    color:red;
+}
+
+
+/*Received aid for code from https://www.w3schools.com/howto/howto_css_modals.asp*/
+.modal {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    border-radius: 20px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    width: 40%;
+    border-radius: 20px;
+}
+
+.modal_center {
+  color: black;
+  text-align: center;
+}
+
+.modal_text {
+  color: black;
+}
+
+.searchb {
+  margin-left: 3%;
+}
+
+.singleimg {
+  width: 100%;
+}
+
+.logoutbanner {
+  background: #c73a42;
+  color: white;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.picform {
+  margin-left: 40%;
+}
+
+.picedit {
+  margin-left: 3%;
+  margin-top: 1%;
+}
+
+.deleteb {
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+  margin-bottom: 8%;
+  margin-top: 3%;
+}
+
+.epform {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.log {
+  margin-top: 15px;
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 60%;
+}
+
+.in {
+  margin-top: 15px;
+  margin-left: 33%;
+  margin-right: 33%;
+  width: 34%;
+}
